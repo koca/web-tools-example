@@ -4,10 +4,18 @@
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "poi"
+    "dev": "poi",
+    "lint:eslint": "eslint . --ext .js,.vue"
   },
   "private": true,
   "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-vue": "^4.5.0",
     "poi": "^10.2.7"
+  },
+  "dependencies": {
+    "vue": "^2.5.16"
   }
 }
