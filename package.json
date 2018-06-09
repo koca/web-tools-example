@@ -1,0 +1,13 @@
+{
+  "name": "web-tools-demo",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "poi"
+  },
+  "private": true,
+  "devDependencies": {
+    "poi": "^10.2.7"
+  }
+}
