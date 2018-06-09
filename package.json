@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "poi",
-    "lint:eslint": "eslint . --ext .js,.vue"
+    "lint:eslint": "eslint . --ext .js,.vue",
+    "lint:style": "stylelint **/*.{vue,css,scss,sass,less}"
   },
   "private": true,
   "devDependencies": {
@@ -13,7 +14,9 @@
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-vue": "^4.5.0",
-    "poi": "^10.2.7"
+    "poi": "^10.2.7",
+    "stylelint": "^9.2.1",
+    "stylelint-config-standard": "^18.2.0"
   },
   "dependencies": {
     "vue": "^2.5.16"

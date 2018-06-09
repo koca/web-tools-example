@@ -16,7 +16,7 @@ export default {
 </script>
 
 <style>
-.app{
-font-family: sans-serif;
+.app {
+  font-family: sans-serif;
 }
 </style>
