@@ -3,12 +3,28 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "dev": "poi",
-    "lint:eslint": "eslint . --ext .js,.vue",
-    "lint:style": "stylelint **/*.{vue,css,scss,sass,less}"
+    "build": "poi build",
+    "lint": "npm run lint:eslint && npm run lint:style",
+    "lint:fix": "npm run lint:style:fix && npm run lint:eslint:fix",
+    "lint:eslint": "eslint --ext .js,.vue .",
+    "lint:eslint:fix": "npm run lint:eslint -- --fix",
+    "lint:style": "stylelint **/*.{vue,css,scss,sass,less}",
+    "lint:style:fix": "npm run lint:style -- --fix"
   },
-  "private": true,
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "{src,example}/**/*.{js,vue,css}": [
+      "npm run lint:fix",
+      "git add"
+    ]
+  },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
@@ -17,6 +33,8 @@
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-vue": "^4.5.0",
+    "husky": "^1.0.0-rc.8",
+    "lint-staged": "^7.1.3",
     "poi": "^10.2.7",
     "prettier": "^1.13.5",
     "stylelint": "^9.2.1",
