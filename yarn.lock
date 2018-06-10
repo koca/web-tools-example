@@ -2,6 +2,12 @@
 # yarn lockfile v1
 
 
+"@babel/code-frame@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.0.0-beta.44.tgz#2a02643368de80916162be70865c97774f3adbd9"
+  dependencies:
+    "@babel/highlight" "7.0.0-beta.44"
+
 "@babel/code-frame@7.0.0-beta.49":
   version "7.0.0-beta.49"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.0.0-beta.49.tgz#becd805482734440c9d137e46d77340e64d7f51b"
@@ -27,6 +33,16 @@
     resolve "^1.3.2"
     semver "^5.4.1"
     source-map "^0.5.0"
+
+"@babel/generator@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.0.0-beta.44.tgz#c7e67b9b5284afcf69b309b50d7d37f3e5033d42"
+  dependencies:
+    "@babel/types" "7.0.0-beta.44"
+    jsesc "^2.5.1"
+    lodash "^4.2.0"
+    source-map "^0.5.0"
+    trim-right "^1.0.1"
 
 "@babel/generator@7.0.0-beta.49":
   version "7.0.0-beta.49"
@@ -81,6 +97,14 @@
     "@babel/traverse" "7.0.0-beta.49"
     "@babel/types" "7.0.0-beta.49"
 
+"@babel/helper-function-name@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@babel/helper-function-name/-/helper-function-name-7.0.0-beta.44.tgz#e18552aaae2231100a6e485e03854bc3532d44dd"
+  dependencies:
+    "@babel/helper-get-function-arity" "7.0.0-beta.44"
+    "@babel/template" "7.0.0-beta.44"
+    "@babel/types" "7.0.0-beta.44"
+
 "@babel/helper-function-name@7.0.0-beta.49":
   version "7.0.0-beta.49"
   resolved "https://registry.yarnpkg.com/@babel/helper-function-name/-/helper-function-name-7.0.0-beta.49.tgz#a25c1119b9f035278670126e0225c03041c8de32"
@@ -88,6 +112,12 @@
     "@babel/helper-get-function-arity" "7.0.0-beta.49"
     "@babel/template" "7.0.0-beta.49"
     "@babel/types" "7.0.0-beta.49"
+
+"@babel/helper-get-function-arity@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@babel/helper-get-function-arity/-/helper-get-function-arity-7.0.0-beta.44.tgz#d03ca6dd2b9f7b0b1e6b32c56c72836140db3a15"
+  dependencies:
+    "@babel/types" "7.0.0-beta.44"
 
 "@babel/helper-get-function-arity@7.0.0-beta.49":
   version "7.0.0-beta.49"
@@ -168,6 +198,12 @@
     "@babel/types" "7.0.0-beta.49"
     lodash "^4.17.5"
 
+"@babel/helper-split-export-declaration@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.44.tgz#c0b351735e0fbcb3822c8ad8db4e583b05ebd9dc"
+  dependencies:
+    "@babel/types" "7.0.0-beta.44"
+
 "@babel/helper-split-export-declaration@7.0.0-beta.49":
   version "7.0.0-beta.49"
   resolved "https://registry.yarnpkg.com/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.49.tgz#40d78eda0968d011b1c52866e5746cfb23e57548"
@@ -190,6 +226,14 @@
     "@babel/template" "7.0.0-beta.49"
     "@babel/traverse" "7.0.0-beta.49"
     "@babel/types" "7.0.0-beta.49"
+
+"@babel/highlight@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@babel/highlight/-/highlight-7.0.0-beta.44.tgz#18c94ce543916a80553edcdcf681890b200747d5"
+  dependencies:
+    chalk "^2.0.0"
+    esutils "^2.0.2"
+    js-tokens "^3.0.0"
 
 "@babel/highlight@7.0.0-beta.49":
   version "7.0.0-beta.49"
@@ -547,6 +591,15 @@
     core-js "^2.5.6"
     regenerator-runtime "^0.11.1"
 
+"@babel/template@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.0.0-beta.44.tgz#f8832f4fdcee5d59bf515e595fc5106c529b394f"
+  dependencies:
+    "@babel/code-frame" "7.0.0-beta.44"
+    "@babel/types" "7.0.0-beta.44"
+    babylon "7.0.0-beta.44"
+    lodash "^4.2.0"
+
 "@babel/template@7.0.0-beta.49":
   version "7.0.0-beta.49"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.0.0-beta.49.tgz#e38abe8217cb9793f461a5306d7ad745d83e1d27"
@@ -555,6 +608,21 @@
     "@babel/parser" "7.0.0-beta.49"
     "@babel/types" "7.0.0-beta.49"
     lodash "^4.17.5"
+
+"@babel/traverse@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.0.0-beta.44.tgz#a970a2c45477ad18017e2e465a0606feee0d2966"
+  dependencies:
+    "@babel/code-frame" "7.0.0-beta.44"
+    "@babel/generator" "7.0.0-beta.44"
+    "@babel/helper-function-name" "7.0.0-beta.44"
+    "@babel/helper-split-export-declaration" "7.0.0-beta.44"
+    "@babel/types" "7.0.0-beta.44"
+    babylon "7.0.0-beta.44"
+    debug "^3.1.0"
+    globals "^11.1.0"
+    invariant "^2.2.0"
+    lodash "^4.2.0"
 
 "@babel/traverse@7.0.0-beta.49":
   version "7.0.0-beta.49"
@@ -570,6 +638,14 @@
     globals "^11.1.0"
     invariant "^2.2.0"
     lodash "^4.17.5"
+
+"@babel/types@7.0.0-beta.44":
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.0.0-beta.44.tgz#6b1b164591f77dec0a0342aca995f2d046b3a757"
+  dependencies:
+    esutils "^2.0.2"
+    lodash "^4.2.0"
+    to-fast-properties "^2.0.0"
 
 "@babel/types@7.0.0-beta.49":
   version "7.0.0-beta.49"
@@ -1056,6 +1132,17 @@ babel-code-frame@^6.22.0, babel-code-frame@^6.26.0:
     esutils "^2.0.2"
     js-tokens "^3.0.2"
 
+babel-eslint@^8.2.3:
+  version "8.2.3"
+  resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-8.2.3.tgz#1a2e6681cc9bc4473c32899e59915e19cd6733cf"
+  dependencies:
+    "@babel/code-frame" "7.0.0-beta.44"
+    "@babel/traverse" "7.0.0-beta.44"
+    "@babel/types" "7.0.0-beta.44"
+    babylon "7.0.0-beta.44"
+    eslint-scope "~3.7.1"
+    eslint-visitor-keys "^1.0.0"
+
 babel-helper-vue-jsx-merge-props@^2.0.2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-2.0.3.tgz#22aebd3b33902328e513293a8e4992b384f9f1b6"
@@ -1126,6 +1213,10 @@ babel-preset-vue@^2.0.2:
     babel-plugin-jsx-v-model "^2.0.1"
     babel-plugin-syntax-jsx "^6.18.0"
     babel-plugin-transform-vue-jsx "^3.5.0"
+
+babylon@7.0.0-beta.44:
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/babylon/-/babylon-7.0.0-beta.44.tgz#89159e15e6e30c5096e22d738d8c0af8a0e8ca1d"
 
 bail@^1.0.0:
   version "1.0.3"
@@ -2398,6 +2489,12 @@ eslint-config-airbnb-base@^12.1.0:
   dependencies:
     eslint-restricted-globals "^0.1.1"
 
+eslint-config-prettier@^2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-2.9.0.tgz#5ecd65174d486c22dff389fe036febf502d468a3"
+  dependencies:
+    get-stdin "^5.0.1"
+
 eslint-import-resolver-node@^0.3.1:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.2.tgz#58f15fb839b8d0576ca980413476aab2472db66a"
@@ -2427,6 +2524,13 @@ eslint-plugin-import@^2.12.0:
     read-pkg-up "^2.0.0"
     resolve "^1.6.0"
 
+eslint-plugin-prettier@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-2.6.0.tgz#33e4e228bdb06142d03c560ce04ec23f6c767dd7"
+  dependencies:
+    fast-diff "^1.1.1"
+    jest-docblock "^21.0.0"
+
 eslint-plugin-vue@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-4.5.0.tgz#09d6597f4849e31a3846c2c395fccf17685b69c3"
@@ -2437,7 +2541,7 @@ eslint-restricted-globals@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/eslint-restricted-globals/-/eslint-restricted-globals-0.1.1.tgz#35f0d5cbc64c2e3ed62e93b4b1a7af05ba7ed4d7"
 
-eslint-scope@^3.7.1:
+eslint-scope@^3.7.1, eslint-scope@~3.7.1:
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-3.7.1.tgz#3d63c3edfda02e06e01a452ad88caacc7cdcb6e8"
   dependencies:
@@ -2702,6 +2806,10 @@ fast-deep-equal@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
 
+fast-diff@^1.1.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/fast-diff/-/fast-diff-1.1.2.tgz#4b62c42b8e03de3f848460b639079920695d0154"
+
 fast-glob@^2.0.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-2.2.2.tgz#71723338ac9b4e0e2fff1d6748a2a13d5ed352bf"
@@ -2958,6 +3066,10 @@ get-port@^3.2.0:
 get-stdin@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-4.0.1.tgz#b968c6b0a04384324902e8bf1a5df32579a450fe"
+
+get-stdin@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-5.0.1.tgz#122e161591e21ff4c52530305693f20e6393a398"
 
 get-stdin@^6.0.0:
   version "6.0.0"
@@ -3771,6 +3883,10 @@ javascript-stringify@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/javascript-stringify/-/javascript-stringify-1.6.0.tgz#142d111f3a6e3dae8f4a9afd77d45855b5a9cce3"
 
+jest-docblock@^21.0.0:
+  version "21.2.0"
+  resolved "https://registry.yarnpkg.com/jest-docblock/-/jest-docblock-21.2.0.tgz#51529c3b30d5fd159da60c27ceedc195faf8d414"
+
 js-base64@^2.1.9:
   version "2.4.5"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.4.5.tgz#e293cd3c7c82f070d700fc7a1ca0a2e69f101f92"
@@ -3980,7 +4096,7 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
+lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.3.0:
   version "4.17.10"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
@@ -5307,7 +5423,7 @@ preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
 
-prettier@^1.13.0:
+prettier@^1.13.0, prettier@^1.13.5:
   version "1.13.5"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.13.5.tgz#7ae2076998c8edce79d63834e9b7b09fead6bfd0"
 
@@ -6319,6 +6435,12 @@ style-search@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/style-search/-/style-search-0.1.0.tgz#7958c793e47e32e07d2b5cafe5c0bf8e12e77902"
 
+stylelint-config-prettier@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-3.2.0.tgz#af32b7845adeeddbf0a0bd642ace4ca1e68958e2"
+  dependencies:
+    stylelint "^9.1.1"
+
 stylelint-config-recommended@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-2.1.0.tgz#f526d5c771c6811186d9eaedbed02195fee30858"
@@ -6329,7 +6451,7 @@ stylelint-config-standard@^18.2.0:
   dependencies:
     stylelint-config-recommended "^2.1.0"
 
-stylelint@^9.2.1:
+stylelint@^9.1.1, stylelint@^9.2.1:
   version "9.2.1"
   resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-9.2.1.tgz#fe63c169f6cd3bc81e77f0e3c6443df3267ec211"
   dependencies:

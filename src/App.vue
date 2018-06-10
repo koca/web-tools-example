@@ -8,11 +8,10 @@
 export default {
   data() {
     return {
-      msg: 'hello world',
-    };
-  },
-
-};
+      msg: 'hello world'
+    }
+  }
+}
 </script>
 
 <style>
